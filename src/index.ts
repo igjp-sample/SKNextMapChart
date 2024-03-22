@@ -108,6 +108,7 @@ export class SKNextMapChart {
         symbolSeries.dataSource = locations;
         symbolSeries.markerType = MarkerType.Circle;
         symbolSeries.radiusScale = sizeScale;
+        symbolSeries.maximumMarkers = 20000; // 最大マーカー数
         //symbolSeries.fillScale = brushScale;
         symbolSeries.fillMemberPath = 'AddPoint';
         symbolSeries.radiusMemberPath = 'AddPoint';
