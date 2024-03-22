@@ -117,6 +117,7 @@ export class SKNextMapChart {
         symbolSeries.markerOutline = 'rgba(58,107,142,0.5)';
         symbolSeries.markerBrush = 'rgba(90,140,201,0.4)';
         symbolSeries.tooltipTemplate = this.createTooltip;
+        symbolSeries.resolution = 100;
 
         this.geoMap.series.add(symbolSeries);
     }
