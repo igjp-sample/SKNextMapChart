@@ -3,8 +3,6 @@ import 'igniteui-webcomponents/themes/light/bootstrap.css'
 import '@webcomponents/custom-elements/custom-elements.min';
 import '@webcomponents/custom-elements/src/native-shim.js';
 
-import { WorldLocations } from './worldlocations';
-import { MapUtils } from './MapUtils';
 import { html } from 'lit-html';
 
 // Modules
@@ -57,9 +55,6 @@ export class SKNextMapChart {
 
         this._bind = () => {
             // 主にチャート表現やイベントハンドラの初期設定を行っています。
-            // const regions =  MapUtils.getRegions();
-            // console.log(regions['Japan']);
-            // this.geoMap.zoomToGeographic(regions['Japan']);
         }
         this._bind();
 
